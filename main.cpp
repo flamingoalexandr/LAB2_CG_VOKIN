@@ -81,9 +81,9 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
     Load_Textur("sprite.png", &bg, GL_CLAMP, GL_CLAMP, GL_NEAREST);
     /* program main loop */
-    RECT rct; //создание переменной с координатами прямоуголника
-    GetClientRect(hwnd, &rct); //получение текущих координат окна
-    glOrtho(0, rct.right, rct.bottom, 0, 1, -1); //выставляем их как координаты окна
+    RECT rct; //Г±Г®Г§Г¤Г Г­ГЁГҐ ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г®Г© Г± ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ Г¬ГЁ ГЇГ°ГїГ¬Г®ГіГЈГ®Г«Г­ГЁГЄГ 
+    GetClientRect(hwnd, &rct); //ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ ГІГҐГЄГіГ№ГЁГµ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ Г®ГЄГ­Г 
+    glOrtho(0, rct.right, rct.bottom, 0, 1, -1); //ГўГ»Г±ГІГ ГўГ«ГїГҐГ¬ ГЁГµ ГЄГ ГЄ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» Г®ГЄГ­Г 
 
 
     while (!bQuit)
@@ -134,9 +134,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
             glDisableClientState(GL_VERTEX_ARRAY);
 
-
-            glPopMatrix();
-
+            glColor3f(1,1,1)
             ShowBackground(bg);
                     Back = new Button("Back", 150, 50, new Point(windowWidth/2, windowHeight/2 + 120)); Back->Show();
                     // IMAGE
@@ -202,7 +200,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             windowHeight = (float)HIWORD(lParam);
             glViewport(0,0, windowWidth, windowHeight);
             glLoadIdentity();
-            glOrtho(0, windowWidth, windowHeight, 0, 1, -1); //выставляем их как координаты окна
+            glOrtho(0, windowWidth, windowHeight, 0, 1, -1); //ГўГ»Г±ГІГ ГўГ«ГїГҐГ¬ ГЁГµ ГЄГ ГЄ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ» Г®ГЄГ­Г 
             break;
         case WM_DESTROY:
             return 0;
