@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1584205422 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\main.c
+	<windows.h>
+	<gl/gl.h>
+
+1711250660 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\menu.cpp
+
+1711295062 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\point.cpp
+	<string>
+	"point.h"
+
+1711373945 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\button.cpp
+	<string>
+	<iostream>
+	<gl/gl.h>
+	"point.h"
+	"stb-master/stb_easy_font.h"
+	"button.h"
+
+1711290054 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\point.cpp
+	<string>
+
+1674029753 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\stb-master\stb_easy_font.h
+	<stdlib.h>
+	<math.h>
+
+1711382356 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\main.cpp
+	<windows.h>
+	<gl/gl.h>
+	"button.h"
+	<iostream>
+	"stb-master/stb_easy_font.h"
+	"stb-master/stb_image.h"
+	"textur.h"
+
+1711293228 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\button.cpp
+	<string>
+	<iostream>
+	<gl/gl.h>
+	"point.h"
+	"stb-master/stb_easy_font.h"
+	"button.h"
+
+1711295053 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\point.h
+
+1711374876 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\button.h
+	"Point.h"
+
+1711377588 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\mainmenu.cpp
+	"button.h"
+	"mainmenu.h"
+	<gl/gl.h>
+
+1711377597 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\mainmenu.h
+
+1674029753 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\stb-master\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1711382485 source:c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\textur.cpp
+	<gl/gl.h>
+	"stb-master/stb_image.h"
+	"textur.h"
+
+1711381947 c:\users\user\documents\ipolytech\2 курс\4 семестр\Компьютерная графика\2 лб\lab2__cb\textur.h
+
